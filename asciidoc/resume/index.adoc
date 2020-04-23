@@ -10,7 +10,7 @@
 
 [cols="20%,80%,20%,80%", stripes=even, frame=none, grid=none]
 |====
-| 邮箱： | a@rwrr.me | 微信： | Limitless-_-
+| 邮箱： | admin@radix10.me | 微信： | Limitless-_-
 
 |====
 
@@ -19,7 +19,7 @@
 [cols="30%,80%,30%,80%", stripes=even, frame=none, grid=none]
 |====
 
-| 工作年限： | 3年                                                            | 技术博客： | https://rwrr.me[rwrr.me,window=_blank]
+| 工作年限： | 3年                                                            | 技术博客： | https://radix10.me[radix10.me,window=_blank]
 | GitHub：   | https://github.com/rwrr[RWRR,window=_blank]                    | 期望薪资： | 税前月薪 *10k~13k*
 | 期望职位： | Java开发工程师                                                 | 期望城市： | 北京
 
