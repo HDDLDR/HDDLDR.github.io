@@ -1,36 +1,28 @@
 :toc!:
 :title: 王恒的简历
 
-== 联系方式
+=== 联系方式
 
 [cols="20%,80%,20%,80%", stripes=even, frame=none, grid=none]
 |====
-| 姓名： | 王恒      | 手机： | 17610589157
-
-|====
-
-[cols="20%,80%,20%,80%", stripes=even, frame=none, grid=none]
-|====
+| 姓名： | 王恒             | 手机： | 17610589157
 | 邮箱： | admin@radix10.me | 微信： | Limitless-_-
-
 |====
 
+=== 个人信息
 
-== 个人信息
 [cols="30%,80%,30%,80%", stripes=even, frame=none, grid=none]
 |====
-
 | 工作年限： | 3年                                                            | 技术博客： | https://radix10.me[radix10.me,window=_blank]
-| GitHub：   | https://github.com/rwrr[github.com/rwrr,window=_blank]                    | 期望薪资： | 税前月薪 *10k~13k*
+| GitHub：   | https://github.com/rwrr[github.com/rwrr,window=_blank]         | 期望薪资： | 税前月薪 *10k~13k*
 | 期望职位： | Java开发工程师                                                 | 期望城市： | 北京
-
 |====
 
-== 工作经历
+=== 工作经历
 
-=== 北京库多客网络科技有限公司(2017.03～2019.12)
+==== 北京库多客网络科技有限公司(2017.03～2019.12)
 
-==== 赛瑞斯作业评估系统
+===== 赛瑞斯作业评估系统
 
 此项目是一个为咨询公司搭建的作业及数据统计分析平台。
 
@@ -52,7 +44,7 @@
 在项目中因为需要同时负责多个模块与同时进行接口联调，因此经常会遇到急需马上修复的 *BUG* ，经常在不同分支间跳转让我对git的分支操作暂存等操作有了更深的理解。
 在 *客户管理* 模块借助 *POI* 实现了客户要求的报表导出这一需求。
 
-==== 串联
+===== 串联
 
 串联是一个用来分享名片的小程序具有定制名片样式，分享收藏名片，名片夹，改动信息高亮等功能。
 
@@ -67,7 +59,7 @@
 在此项目中我选择了Swager这个框架并采用 *RESTful* 的接口风格，让我对 *RESTful* 有了更加深入的理解。
 在开发中踩过几个微信API的坑，这里再次让我感受到了读文档和写好文档的重要性，也让我更加理解软件开发中 *最小惊讶原则* 。
 
-==== 空中绿洲/空中绿洲CMS
+===== 空中绿洲/空中绿洲CMS
 
 在此项目中我主要负责实现了以下模块。
 
@@ -84,21 +76,21 @@
 并在没有依赖管理工具的情况下升级了JDK及Spring。
 在平时的运维工作中也让我认识到了数据的宝贵。
 
-== 开源项目和作品
+=== 开源项目和作品
 
-=== 开源项目
+==== 开源项目
 
-* https://github.com/rwrr/loops[Oh My Arch,window=_blank] 一个 `Shell` 编写的 `Arch Linux` 配置管理工具
+* https://github.com/rwrr/ohmyarch[Oh My Arch,window=_blank] 一个 `Shell` 编写的 `Arch Linux` 配置管理工具
 * https://github.com/rwrr/ipool[iPool,window=_blank] 一个使用 `Asciidoctor` 、 `Docker` 、 `Jenkins` 、 `Ansible` 、 `Lego` 等开源框架实现的静态博客
 * https://github.com/rwrr/zathura-gruvbox[zathura-gruvbox,window=_blank] `Zathura PDF` 阅读器的 `Gruvbox` 配色
 
-=== 技术文章
+==== 技术文章
 
 * https://rwrr.me/java/reflection/java-reflection-in-action/index.html[Java反射实战,window=_blank]
 * https://ipool.me/pacman/shared_pacman_cache.html[共享pacman缓存,window=_blank]
 * https://ipool.me/graphviz/graphviz-examples.html[Graphviz示例,window=_blank]
 
-== 技能清单
+=== 技能清单
 
 1. Java基础扎实，理解IO、多线程、集合等概念，对JVM有一定了解
 2. 熟练使用常见开发框架，如：Spring、Spring Boot、Spring JPA、Spring MVC、Spring REST Docs、MyBatis等
@@ -110,6 +102,6 @@
 8. 熟练使用Maven、Gradle、Git、Vim、Docker、IDEA、Junit等开发测试工具
 9. 了解Jenkins、Ansible、Kubernates、Spring Cloud等技术
 
-== 致谢
+=== 致谢
 
 感谢您花时间阅读我的简历，期待能有机会和您共事。
