@@ -20,7 +20,7 @@
 |====
 
 | 工作年限： | 3年                                                            | 技术博客： | https://radix10.me[radix10.me,window=_blank]
-| GitHub：   | https://github.com/rwrr[RWRR,window=_blank]                    | 期望薪资： | 税前月薪 *10k~13k*
+| GitHub：   | https://github.com/rwrr[github.com/rwrr,window=_blank]                    | 期望薪资： | 税前月薪 *10k~13k*
 | 期望职位： | Java开发工程师                                                 | 期望城市： | 北京
 
 |====
