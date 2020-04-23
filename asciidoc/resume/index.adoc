@@ -1,0 +1,114 @@
+:toc!:
+
+== 联系方式
+
+[cols="20%,80%,20%,80%", stripes=even, frame=none, grid=none]
+|====
+| 姓名： | 王恒      | 手机： | 17610589157
+
+|====
+
+[cols="20%,80%,20%,80%", stripes=even, frame=none, grid=none]
+|====
+| 邮箱： | a@rwrr.me | 微信： | Limitless-_-
+
+|====
+
+
+== 个人信息
+[cols="30%,80%,30%,80%", stripes=even, frame=none, grid=none]
+|====
+
+| 工作年限： | 3年                                                            | 技术博客： | https://rwrr.me[rwrr.me,window=_blank]
+| GitHub：   | https://github.com/rwrr[RWRR,window=_blank]                    | 期望薪资： | 税前月薪 *10k~13k*
+| 期望职位： | Java开发工程师                                                 | 期望城市： | 北京
+
+|====
+
+== 工作经历
+
+=== 北京库多客网络科技有限公司(2017.03～2019.12)
+
+==== 赛瑞斯作业评估系统
+
+此项目是一个为咨询公司搭建的作业及数据统计分析平台。
+
+此项目使用 *Maven* 作为项目管理工具，进行分模块开发。
+项目文档由 *APIDOC* 创建管理。
+后端基于Spring Boot、MyBatis、Lombok、JXLS等web开发框架，使用MySQL进行数据持久化，开发中使用Jenkins、Docker进行CI/CD。
+前端采用使用Node、NPM等工具结合Vue、ElementUI等框架开发配合Nginx进行部署及负载均衡。
+
+在此项目中我主要负责实现了以下模块。
+
+1. *文档管理* 文档分类检索、上传下载、在线阅读等功能，以及对不同角色的操作权限控制。
+2. *设备管理* 对设备借出，归还，入库等状态追踪及审批流程，数量统计，设备搜索，以及实现对不同角色操作权限的控制。
+3. *报告管理* 报告的组合检索、审核流程、上传下载等。
+4. *客户管理* 客户满意度调查、客户与子公司信息表格导出。
+5. *评估管理* 质量风险和安全文明表格的实现。
+
+在日常编码工作中使用了Java8引入的函数式编程来抽取不同的业务逻辑。
+使用 *Optional* 来避免产生NLP。
+在项目中因为需要同时负责多个模块与同时进行接口联调，因此经常会遇到急需马上修复的 *BUG* ，经常在不同分支间跳转让我对git的分支操作暂存等操作有了更深的理解。
+在 *客户管理* 模块借助 *POI* 实现了客户要求的报表导出这一需求。
+
+==== 串联
+
+串联是一个用来分享名片的小程序具有定制名片样式，分享收藏名片，名片夹，改动信息高亮等功能。
+
+此项目使用 *Gradle* 作为项目管理工具。
+使用Spring Boot、Spring JPA、Swagger、Lombok等框架配合MySQL、Redis等进行开发。
+前端为微信小程序。
+在此项目中我独立主导此项目的开发，完成了微信登录、手机号绑定、名片分享、名片修改、名片列表、改动高亮等功能。
+使用七牛云完成图片上传及存储。
+配合JWT完成名片分享超时过期功能。
+
+在此项目中我体会到，文档及接口的设计在Web开发中的重要性，文档的时效性，文档中描述是否足够详细准确，接口是否易于调试等等都非常重要。
+在此项目中我选择了Swager这个框架并采用 *RESTful* 的接口风格，让我对 *RESTful* 有了更加深入的理解。
+在开发中踩过几个微信API的坑，这里再次让我感受到了读文档和写好文档的重要性，也让我更加理解软件开发中 *最小惊讶原则* 。
+
+==== 空中绿洲/空中绿洲CMS
+
+在此项目中我主要负责实现了以下模块。
+
+1. *定时任务* 使用Quartz完成按照cron表达式定时调度任务。
+2. *举报管理* 实现举报文章，审核举报等。
+3. *今日精选* 配合后台管理模块推送指定文章到首页。
+4. *匠说*     推荐指定用户的作品集到首页匠说模块。
+5. *热词导航* 按照热门关键词进行快速文章分类导航索引。
+
+添加了 *密码批量修改* 、 *文章批量上传* 、 *用户注册默认头像* 、 *微信登录* 、 *搜索对中文简体及繁体的支持* 等功能。
+拆分了用户类型，并为文章添加了推广类型。
+并将之前的Excel文档使用Markdown重写。
+重写登录认证方式为基于JWT的Token登录以实现统一登录。
+并在没有依赖管理工具的情况下升级了JDK及Spring。
+在平时的运维工作中也让我认识到了数据的宝贵。
+
+== 开源项目和作品
+
+=== 开源项目
+
+* https://github.com/rwrr/loops[Oh My Arch,window=_blank] 一个 `Shell` 编写的 `Arch Linux` 配置管理工具
+* https://github.com/rwrr/ipool[iPool,window=_blank] 一个使用 `Asciidoctor` 、 `Docker` 、 `Jenkins` 、 `Ansible` 、 `Lego` 等开源框架实现的静态博客
+* https://github.com/rwrr/zathura-gruvbox[zathura-gruvbox,window=_blank] `Zathura PDF` 阅读器的 `Gruvbox` 配色
+
+=== 技术文章
+
+* https://rwrr.me/java/reflection/java-reflection-in-action/index.html[Java反射实战,window=_blank]
+* https://ipool.me/pacman/shared_pacman_cache.html[共享pacman缓存,window=_blank]
+* https://ipool.me/graphviz/graphviz-examples.html[Graphviz示例,window=_blank]
+
+== 技能清单
+
+1. Java基础扎实，理解IO、多线程、集合等概念，对JVM有一定了解
+2. 熟练使用常见开发框架，如：Spring、Spring Boot、Spring JPA、Spring MVC、Spring REST Docs、MyBatis等
+3. 熟练使用MySQL、Redis、Nginx等软件
+4. 熟练使用Linux，熟悉Shell脚本编程
+5. 了解HTML、JavaScript、CSS、Angular、React、Flutter等前端开发技术
+6. 了解微信登录支付等的后端开发
+7. 了解C、Python、Go、Markdown、Asciidoc等
+8. 熟练使用Maven、Gradle、Git、Vim、Docker、IDEA、Junit等开发测试工具
+9. 了解Jenkins、Ansible、Kubernates、Spring Cloud等技术
+
+== 致谢
+
+感谢您花时间阅读我的简历，期待能有机会和您共事。

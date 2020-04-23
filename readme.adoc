@@ -1,0 +1,29 @@
+= RADIX10.ME
+
+一个使用Asciidoctor生成的静态博客。
+
+.克隆仓库
+[source, bash]
+----
+git clone https://github.com/rwrr/rwrr.github.io
+cd rwrr.github.io
+----
+
+.生成静态页面
+[source, bash]
+----
+./build
+----
+
+.使用 `Python` 临时启动一个服务器
+[source, bash]
+----
+cd public
+python -m http.server
+----
+
+.使用浏览器预览页面
+[source, bash]
+----
+xdg-open http://localhost:8000
+----

@@ -1,0 +1,14 @@
+#!/usr/bin/sh
+
+rm -rf public
+
+asciidoctor 'asciidoc/**/*.adoc' \
+  --source-dir=asciidoc \
+  --destination-dir=public \
+  --attribute=highlightjsdir=/highlight \
+  --attribute=source-highlighter=highlightjs \
+  --attribute=icons=font \
+  --attribute=images=https://cdn.radix10.cn/me/rwrr/images \
+  --attribute=prewrap!
+
+cp -r resources/highlight public/highlight

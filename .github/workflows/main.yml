@@ -1,0 +1,26 @@
+name: Blog
+
+on:
+  push:
+    branches:
+      - asciidoc
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Install Dependency
+      run: sudo gem install asciidoctor
+
+    - name: Build
+      run: ./build
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: master
+        FOLDER: public
